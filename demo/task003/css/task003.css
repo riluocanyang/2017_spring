@@ -1,0 +1,126 @@
+*{margin:0;padding:0;}
+ul{
+	list-style: none;
+}
+/* 使用float布局 */
+/* .layoutWarp{
+	display: block;
+	overflow: hidden; 
+	width: 93%;
+	min-height: 100px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #999;
+}
+.layoutWarp .teamLogo{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	padding: 20px;
+	border: 1px solid #999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+.layoutWarp .teamLogo img{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: url("../img/teamLogo.jpg") no-repeat;
+	margin-right: 20px;
+}
+.layoutWarp .teamLogo span{
+	display: inline-block;
+	width: 50px;
+	vertical-align: top;
+}
+
+.layoutWarp .myLogo{
+	float: right;
+	width: 120px;
+	margin-left: 20px;
+	border: 1px solid #999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.layoutWarp .myLogoLi{
+	padding: 20px;	
+}
+.layoutWarp .myLogoLi img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: url("../img/myLogo.jpg") no-repeat;
+}
+
+.layoutWarp .content{
+	margin-left: 221px;
+	border: 1px solid #999;
+	overflow: hidden;
+	padding: 20px;
+} */
+
+/* 使用absolute布局 */
+.layoutWarp{
+	display:block;
+	overflow: hidden;
+	position: relative;
+	width: 93%;
+	min-height: 100px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #999;
+}
+.layoutWarp .teamLogo{
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	top: 20;
+	left: 20;
+	padding: 20px;
+	border: 1px solid #999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.layoutWarp .teamLogo img{
+	display: inline-block;
+	width:80px;
+	height: 80px;
+	background: url("../img/teamLogo.jpg") no-repeat;
+	margin-right: 20px;
+}
+.layoutWarp .teamLogo span{
+	display: inline-block;
+	width: 50px;
+	vertical-align: top;
+}
+.layoutWarp .myLogo{
+	display: inline-block;
+	float: right;
+	width: 120px;
+	margin-left: 20px;
+	border: 1px solid #999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.layoutWarp .myLogoLi{
+	padding: 20px;
+}
+.layoutWarp .myLogoLi img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: url("../img/myLogo.jpg") no-repeat;
+
+}
+.layoutWarp .content{
+	
+	margin-left: 221px;
+	overflow: hidden; 
+	border: 1px solid #999;
+	padding: 20px;
+}

@@ -1,0 +1,414 @@
+*{margin:0;padding:0;}
+.warp{
+	width: 980px;
+	height: 1386px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 44px;
+}
+.warp .header{
+	position: relative;
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+}
+.warp .header .headerDiv{
+	position: relative;
+	width: 110px;
+	height: 61px;
+	background: #d45d5c;
+}
+
+.warp .header .headerSpan{
+	position:absolute;
+	left: 0;
+	bottom: 3px;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "黑体";
+}
+
+.introduce{
+	position: relative;
+	margin: 40px 0;
+}
+.introduce .logo{
+	position: relative;
+	width: 641px;
+	height: 301px;
+	background: url(../img/logo.png) no-repeat;
+}
+.introduce .logo-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 191px;
+	height: 301px;
+	background: #75b86b;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+.introduce .logo-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 191px;
+	height: 301px;
+	background: #d45d5c;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+.introduce .title{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 203px;
+	border-top: 2px solid #cc8091;
+}
+.introduce .title-nav{
+	margin-top: 3px;
+}
+.introduce .title .titleNav span{
+	font-size: 18px;
+	color: #000000;
+	font-weight: 100;
+	font-family: "微软雅黑";
+	border-bottom: 2px solid #000000;
+}
+.introduce .title .titleNav::first-letter{
+	font-size: 24px; 
+	vertical-align: baseline;
+}
+.introduce .title-nav p{
+	font-size: 12px;
+	font-family: "楷体";
+	color: #676767;
+	line-height: 10px;
+	margin-top: 3px;
+}
+.introduce .title .title-number{
+	font-size: 116px;
+	font-family: "微软雅黑";
+	font-weight: 700;
+	color: #75b86b;
+	font-style: oblique;
+	margin-left:-25px;
+}
+
+.introduce .title .title-content{
+	color: #cc8091;
+	font-family: "微软雅黑";
+}
+.introduce .title .title-content .title-data{
+	display: inline-block;
+}
+.introduce .title .title-content .title-date{
+	font-size: 55px;
+}
+.introduce .title .title-content .title-css h1{
+	font-size: 21px;
+}
+.introduce .title .title-content .title-css h2{
+	font-size: 12px;
+}
+.article{
+	width: 641px;
+	height: 200px;
+	position: relative;
+
+}
+.article-what{
+	position: absolute;
+	width: 40%;
+	top: 0;
+	left: 0;
+}
+.article-when{
+	position: absolute;
+	width: 30%;
+	top: 0;
+	left: 44%;
+}
+.article-how{
+	position: absolute;
+	width: 20%;
+	top: 0;
+	left: 78%;
+}
+.article .article-what-title span{
+	font-size: 16px;
+	font-weight: 700;
+	color:#418c59;
+	font-family: "微软雅黑";
+	text-decoration: underline;
+}
+.article .article-when-title span{
+	font-size: 16px;
+	font-weight: 700;
+	color:#d2994f;
+	font-family: "微软雅黑";
+	text-decoration: underline;
+}
+.article .article-how-title span{
+	font-size: 16px;
+	font-weight: 700;
+	color:#cc7680;
+	font-family: "微软雅黑";
+	text-decoration: underline;
+}
+.article .article-para{
+	font-size: 12px;
+	color: #231815;
+	line-height: 16px;
+	font-family: "微软雅黑";
+	padding-top: 5px;
+	opacity: 0.7;
+	filter: alpha(opacity=0.7);
+}
+.article .article-how .count{
+	margin-top: 15px;
+	font-size: 12px;
+	opacity: 0.7;
+	font-family: "微软雅黑";
+	filter: alpha(opacity=0.7);
+}
+.article .article-how .count span{
+	color: #cd4a48;
+	line-height: 16px;
+}
+
+.article-content{
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 40px;
+
+}
+.article-content .article-content-left{
+	width: 415px;
+	float: left;
+}
+.article-content .content-title h1,
+.article-content .content-title h2,
+.article-content .content-title h3{
+	 font-size: 42px;
+	 color: #11456b;
+	 font-weight: 700;
+	 font-family: "黑体";	 
+}
+.article-content .content-title h1 span{
+	 font-size: 72px;
+	 color: #f5e327;
+	 font-weight: 700;
+	 font-family: "黑体";
+	 font-style: oblique;
+	 vertical-align: baseline;	 
+	 margin-right: 20px;
+}
+.article-content .content-title h2{
+	 line-height: 16px;	 
+}
+.article-content .content-title h3{
+	 font-size: 33px;
+	 padding: 20px 0 10px 0; 
+}
+.article-content .content-title{
+	border-bottom: 2px solid #11456b;
+}
+
+.article-content .content-font{
+	margin-top: 20px;
+}
+.article-content .content-font .pic{
+	display: block;
+	float: right;
+	width: 170px;
+	height: 270px;
+	margin: 15px 10px;
+	background: url('../img/font-img1.jpg') no-repeat;
+}
+.article-content .content-font span{
+	float: left;
+	display: block;
+	font-size: 70px;
+	color: #f5e327;
+	font-family: '微软雅黑';
+}
+.article-content .content-font p{
+	font-size: 12px;
+	color: #767777;
+	font-family: '宋体';
+	line-height: 16px;
+}
+.article-content .content-font p.text{
+	text-indent: 2em;
+}
+.article-content .article-content-right{
+	float: right;
+	width: 458px;
+}
+.article-content .article-content-right .picture{
+	width: 458px;
+	height: 275px;
+	background: url('../img/font-img2.png');
+	position: relative;
+}
+.article-content .article-content-right .picture-absolute{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: block;
+	width: 458px;
+	height: 61px;
+	padding: 3px 30px;
+	line-height: 61px;
+	background: #E5EA46;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+.article-content .article-content-right .picture-letter1{
+	height: 44px;
+	padding-left: 15px;
+	color: #ffffff;
+	font-size: 26px;
+	font-family: '微软雅黑';
+	border-left: 3px solid #72b16a;
+}
+.article-content .article-content-right .picture-letter2{
+	color: #72b16a;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	font-style: oblique;
+	padding-left: 20px;
+}
+.article-content .article-content-right .article-bottom{
+	position: relative;
+	width: 459px;
+	height: 318px;
+	background: #F0C9C9;
+	margin-top: 25px;
+	padding-top: 25px;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.article-content .article-content-right .font-menu p{
+	margin: 0 3px 20px 50px;
+}
+.article-content .article-content-right .menu-left{
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: '宋体';
+
+}
+.article-content .article-content-right .menu-right{
+	display: inline-block;
+	width: 30px;
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family: '宋体';
+	font-style: oblique;
+	text-align: right;
+
+}
+.article-content .article-content-right .font-bottom-left{
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	bottom: 0;
+	width: 260px;
+	height: 160px;
+	line-height: 160px;
+	background: #F37C96;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.article-content .font-bottom .bottom-left{
+	position: absolute;
+	left: 10px;
+	font-size: 110px;
+	color: #ffffff;
+	font-family: '微软雅黑';
+}
+.article-content .font-bottom .bottom-right{
+	margin-top: 38px;
+	height: 86px;
+	margin-left: 80px;
+	padding:6px 5px;
+	border-left: 2px solid #ffffff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.article-content .font-bottom .bottom-right h1{
+	line-height: 24px;
+	font-size: 21px;
+	color: #ffffff;
+	font-family: '黑体';
+	
+}
+.article-content .font-bottom .bottom-right p{
+	line-height: 6px;
+	font-size: 12px;
+	color: #ffffff;
+	font-family: '黑体';
+	
+}
+.article-content .font-bottom .font-bottom-right{
+	position: relative;
+	display: inline-block;
+	margin-left: 270px;
+	width: 190px;
+	margin-top: 30px;
+}
+.article-content .font-bottom-right span{
+	display: inline-block;
+	text-indent: 3em;
+	line-height: 16px;
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: '黑体';
+	font-style: oblique;
+}
+.article-content .font-bottom-right q::before{
+	position: absolute;
+	left: -40px;
+	top: -20px;
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: '黑体';
+	padding-bottom: 0;
+}
+.article-content .font-bottom-right q::after{
+	position: absolute;
+	left:130px;
+	top: 60px;
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: '黑体';
+}
+
+.warp .footer{
+	position: relative;
+	width: 892px;
+	height: 61px;
+	border-top: 1px solid #938e8c;
+}
+.warp .footer .footerDiv{
+	text-align: right;
+}
+.warp .footer .footerSpan{	
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: "黑体";
+}
+
+
